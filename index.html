@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ask us anything</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="wrap">
+    <section class="intro">
+      <p id="status" class="status"></p>
+      <h1 id="name"></h1>
+      <p id="tagline" class="tagline"></p>
+      <p class="addr" id="addr"></p>
+    </section>
+
+    <section class="chat" aria-label="Chat with us">
+      <div class="chat-head">Ask us anything</div>
+      <div id="log" class="log" aria-live="polite"></div>
+      <div id="chips" class="chips"></div>
+      <form id="form" class="bar">
+        <input id="input" type="text" placeholder="Type your question" aria-label="Your question" autocomplete="off">
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+  <script src="config.js"></script>
+  <script src="chatbot.js"></script>
+</body>
+</html>
