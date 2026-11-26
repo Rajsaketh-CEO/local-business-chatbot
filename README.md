@@ -4,7 +4,7 @@ A single-page website with a built-in chatbot for local shops, cafes and clinics
 
 Built by Sakie, Warangal, India.
 
-**Off Campus code: YOUR-CODE-HERE**
+**Off Campus code: UVYZXN**
 
 ## What it does
 
